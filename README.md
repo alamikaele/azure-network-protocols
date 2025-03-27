@@ -1,4 +1,4 @@
-<h1>Note this lab is in progress! Will be done soon!</h1>
+<h1>NOTE: LAB IN PROGRESS! WILL BE DONE SOON!</h1>
 
 <p align="center">
 <img src="https://i.imgur.com/Ua7udoS.png" alt="Traffic Examination"/>
