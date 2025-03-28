@@ -22,7 +22,7 @@ This tutorial walks through creating Azure VMs, analyzing network traffic with W
 
 <h2>High-Level Steps Overview </h2>
 
-- Create Virtual Machines
+- Create Initial Resources
 - Observe ICMP Traffic
 - Configure a Firewall (Network Security Group)
 - Observe SSH Traffic
@@ -33,32 +33,37 @@ This tutorial walks through creating Azure VMs, analyzing network traffic with W
 
 <h2>Installation and Actions</h2>
 
-<h3 align="center"> Create Virtual Machines </h3>
+<h3 align="center"> Create Initial Resources </h3>
 
 <p align="center">
 Create Resource Group
 </p>
 <br/>
 <p>
-<img src="https://i.imgur.com/0NZNyOY.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/vqCZYjo.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<br/>
+
+<h3 align="center"> Create Virtual Machines (put both in the previously created resource group) </h3>
+
+<p align="center">
+Create Windows 10 Virtual Machine (VM). Rename the Virtual Network (Vnet) but leave alone the Subnet. Put your username and password created onto a notepad txt file.
+</p>
+<br/>
+<p>
+<img src="https://i.imgur.com/J0lCZ2z.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/3W5FT1T.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <br/>
 
 <p align="center">
-Create Windows 10 Virtual Machine (VM)
+Create Linux (Ubuntu) Virtual Machine (VM). Select the previously created Resource Group and Virtual Network—the Virtual Network MUST BE THE SAME.
 </p>
 <br/>
 <p>
-<img src="https://i.imgur.com/0NZNyOY.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
-</p>
-<br/>
-
-<p align="center">
-Create Linux (Ubuntu) Virtual Machine (VM)
-</p>
-<br/>
-<p>
-<img src="https://i.imgur.com/0NZNyOY.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/3kteJHl.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <br/>
 
@@ -67,7 +72,10 @@ Ensure both VMs are in the same Virtual Network/Subnet
 </p>
 <br/>
 <p>
-<img src="https://i.imgur.com/0NZNyOY.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/5QRB9BK.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/ZJN5dkR.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <br/>
 
